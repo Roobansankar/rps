@@ -29,6 +29,7 @@ export default function Main() {
     }
   };
 
+  
   const generateComputerChoice = () => {
     const randomChoice = choices[Math.floor(Math.random() * choices.length)];
     setComputerChoice(randomChoice);
@@ -48,9 +49,9 @@ export default function Main() {
     window.location.reload();
   };
 
-  useEffect(() => {
-    alert("Enter your name to play the game!");
-  }, []);
+  // useEffect(() => {
+  //   alert("Enter your name to play the game!");
+  // }, []);
 
   useEffect(() => {
     const comboMoves = userChoice + computerChoice;

@@ -32,10 +32,10 @@ const ScoreData = () => {
           {scoreData.map((data, index) => {
             return (
               <tr key={index}>
-                <td>{data.user1name}</td>
-                <td>{data.user2name}</td>
-                <td>{data.user1result}</td>
-                <td>{data.user2result}</td>
+                <td>{data.User1Name}</td>
+                <td>{data.User2Name}</td>
+                <td>{data.User1Result}</td>
+                <td>{data.User2Result}</td>
               </tr>
             );
           })}
